@@ -1,0 +1,11 @@
+name = "Birdie Language Server"
+id = "ls_birdie"
+version = "1.0.0"
+schema_version = 1
+authors = ["Giacomo Cavalieri <info@giacomocavalieri.me>"]
+description = "A Zed extension to use the language server for the birdie Gleam library"
+repository = "https://github.com/giacomocavalieri/birdie-language-server-zed"
+
+[language_servers.ls_birdie]
+name = "ls_birdie"
+languages = ["Gleam"]
